@@ -2,9 +2,12 @@ def prime?(num)
   if num < 2
     false
   else
-    test_nums = (1..10).to_a
-    test_nums.any? do |x|
-      num % x != 0
+    matches = []
+    prime_nums = [2,3,5,7,11,13,17]
+    prime_nums.each do |prime|
+      if prime != num
+        x = num / prime
+    
     end
  end
  end
