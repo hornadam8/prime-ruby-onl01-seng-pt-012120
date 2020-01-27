@@ -8,7 +8,7 @@ def prime?(num)
       if prime != num
         x = num / prime
         if x % 1 == 0
-          matches.push(x)
+          matches << x
         end
         matches = [] ? true : false
       end
