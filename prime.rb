@@ -11,6 +11,8 @@ def prime?(num)
           matches << x
         end
         matches = [] ? true : false
+      else
+        true
       end
     end
  end
