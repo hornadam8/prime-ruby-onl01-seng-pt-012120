@@ -7,8 +7,12 @@ def prime?(num)
     prime_nums.each do |prime|
       if prime != num
         x = num / prime
-    
+        if x % 1 == 0
+          matches << x
+        end
+        matches = [] ? true : false
+      end
     end
  end
- end
+ 
  
